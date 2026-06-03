@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import HeroTile from "@/components/HeroTile";
 import Sidebar from "@/components/Sidebar";
-import CourseCard from "@/components/Coursecard";
+import CourseCard from "@/components/CourseCard";
 import ActivityTile from "@/components/ActivityTile";
 
 export default async function Home() {
