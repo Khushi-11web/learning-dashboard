@@ -32,7 +32,11 @@ export default async function Home() {
         <div className="grid gap-6 md:grid-cols-3">
 
           <div className="md:col-span-2">
-            <HeroTile />
+           <HeroTile
+  activeCourses={courses?.length || 0}
+  hoursLearned={32}
+  certificates={3}
+/>
           </div>
 
           <ActivityTile />
